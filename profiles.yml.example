@@ -1,0 +1,11 @@
+fabric_dbt_lab:
+  target: dev
+  outputs:
+    dev:
+      type: fabric
+      authentication: CLI
+      driver: "ODBC Driver 18 for SQL Server"
+      host: "SUSTITUIR_ENDPOINT.datawarehouse.fabric.microsoft.com"
+      database: "ORDER_DWH"
+      schema: "dbo"
+      threads: 4

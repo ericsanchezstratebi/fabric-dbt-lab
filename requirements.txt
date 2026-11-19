@@ -1,0 +1,2 @@
+# Instalar en entorno virtual. Comprobar compatibilidad de la version gestionada de Fabric.
+dbt-fabric>=1.10,<1.13

@@ -1,0 +1,15 @@
+version: 2
+sources:
+  - name: raw
+    database: ORDER_DWH
+    schema: raw
+    description: "Snapshots CSV cargados por periodo desde OneLake con Fabric Pipeline"
+    tables:
+      - name: region
+      - name: nation
+      - name: customer
+      - name: supplier
+      - name: part
+      - name: partsupp
+      - name: orders
+      - name: lineitem
